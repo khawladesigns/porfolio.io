@@ -1,0 +1,84 @@
+/* General */
+body {
+  margin: 0;
+  font-family: "SF Pro Display", sans-serif;
+  background: white;
+  color: #464646;
+}
+
+.container {
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  position: relative;
+  background: white;
+  overflow: hidden;
+}
+
+/* Navbar */
+.navbar {
+  position: absolute;
+  right: 88px;
+  top: 39px;
+  display: flex;
+  gap: 24px;
+}
+
+.navbar a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #575757;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar a.active,
+.navbar a:hover {
+  color: black;
+}
+
+/* Title */
+.name {
+  position: absolute;
+  left: 88px;
+  top: 158px;
+  font-size: 45px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 70px;
+}
+
+/* Intro text */
+.intro-text {
+  position: absolute;
+  left: 88px;
+  top: 232px;
+  width: 514px;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 20px
+  
+
+}
+
+.highlight {
+  
+  font-weight: 100
+  ;
+}
+
+.intro-text a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+/* Profile image */
+.profile-image {
+  position: absolute;
+  left: 866px;
+  top: 158px;
+}
+
+.profile-image img {
+  width: 486px;
+}
